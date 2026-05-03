@@ -28,7 +28,7 @@ A structured, 7-step framework for planning and executing complex multi-step tas
 2. **Interview** — Clarifying questions asked one at a time; codebase explored when relevant
 3. **Planning** — Sequential task list ordered from foundational to complex
 4. **Summary** — Goal, decisions, and plan presented for approval before execution begins
-5. **Execution mode** — Choose between `Hands On` (autonomous) or `Hands Off` (approval between each step)
+5. **Execution mode** — Choose between `Hands On` (approval between each step) or `Hands Off` (autonomous)
 6. **Execution** — Tasks run in order with progress tracking, diffs, and rationale shown between each step
 7. **Wrap up** — Final summary of all changes and how they satisfy the original goal
 

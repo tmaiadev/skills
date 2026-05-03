@@ -1,6 +1,7 @@
-# workflow
-
-**Description:** A structured, deeply collaborative framework for scoping, planning, and executing complex tasks. This skill ensures perfect alignment on goals and dependencies before any code is written, and provides a systematic, step-by-step execution loop with customizable levels of user oversight.
+---
+name: workflow
+description: A structured, deeply collaborative framework for scoping, planning, and executing complex tasks. This skill ensures perfect alignment on goals and dependencies before any code is written, and provides a systematic, step-by-step execution loop with customizable levels of user oversight.
+---
 
 ## 1. High-level goal
 
@@ -43,13 +44,17 @@ Begin executing the tasks strictly following the order of the LIST created in th
 - Explain why you made those specific changes and how completing this task moves us closer to our ultimate goal.
 - Proceed to the rules defined in either 6.1 or 6.2, depending on the execution mode I selected in Step 5.
 
-### 6.1 Hands On
+### 6.1 Hands Off - Give Permissions
 
-If I have selected the Hands On execution mode, you do not need to wait for my explicit permission after your task update. Promptly proceed to execute the next unchecked item on your planned LIST.
+If I have selected the Hands Off execution mode, check if you (THE AGENT) have permission to execute all of the tasks you require until the planned LIST is done.
 
-### 6.2 Hands Off
+If there are permissions missing or that needs changing, ask me if I would like to change them, and if I accept, make those changes for me.
 
-If I have selected the Hands Off execution mode, you must pause execution after your task update. Ask me for my feedback or approval on the changes you have just made. You must wait for my response, apply any feedback I give you (ensuring you run linters and tests if those tools are available in the environment), and only move to the next item on the list once I am satisfied.
+After that, you do not need to wait for my explicit permission after your task update. Promptly proceed to execute the next unchecked item on your planned LIST.
+
+### 6.2 Hands On
+
+If I have selected the Hands On execution mode, you must pause execution after your task update. Ask me for my feedback or approval on the changes you have just made. You must wait for my response, apply any feedback I give you (ensuring you run linters and tests if those tools are available in the environment), and only move to the next item on the list once I am satisfied.
 
 ## 7. Wrap Up
 
